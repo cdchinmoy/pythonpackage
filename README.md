@@ -1,4 +1,4 @@
-# W Package
+# Example Package
 
 This is a simple example package. You can install this package to get weekday name by passing date(i.e. YY-MM-DDDD). 
 
