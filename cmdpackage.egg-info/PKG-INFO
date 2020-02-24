@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: cmdpackage
-Version: 0.0.7
+Version: 0.0.8
 Summary: A small example package
 Home-page: https://github.com/cdchinmoy/pythonpackage
 Author: Chinmoy Das
@@ -8,9 +8,21 @@ Author-email: cdchinmoy@gmail.com
 License: UNKNOWN
 Description: # Example Package
         
-        This is a simple example package. You can use
-        [Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
-        to write your content.
+        This is a simple example package. You can install this package to get weekday name by passing date(i.e. YY-MM-DDDD). 
+        
+        ## Instruction:
+        
+        1. To download the repo project in the command line type "git clone https://github.com/cdchinmoy/pythonpackage.git" and enter.
+        
+        2. Go to dist directory and type "pip install cmdpackage-0.0.7-py3-none-any.whl" to install the package
+        
+        3. To display the result follow the below instruction:
+            1. import example_pkg
+            2. obj = example_pkg.Date_convert()
+            3. day = obj.findDay('27-02-2020');
+            4. print(day)
+        
+        4. After passing date throuth the "findDay" function as a paramiter, you will get the weekday frequently.  
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License

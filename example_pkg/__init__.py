@@ -2,15 +2,9 @@ import sys
 import datetime 
 import calendar 
 
-class Date_convert:
+class DateConvert:
 
-    #program_name = sys.argv[0]
-    #arguments = sys.argv[1:]
-    def __init__(self):
-        pass
-
-    def findDay(self, date): 
+    def find_day(self, date): 
         born = datetime.datetime.strptime(date, '%d-%m-%Y').weekday() 
-        return (calendar.day_name[born]) 
-  
-#print(findDay(ddate)) 
+        print(calendar.day_name[born]) 
+        return calendar.day_name[born]
