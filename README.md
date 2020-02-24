@@ -14,4 +14,4 @@ This is a simple example package. You can install this package to get weekday na
     3. day = obj.findDay('27-02-2020');
     4. print(day)
 
-4. After passing date throuth the "findDay" function as a paramiter, you will get the weekday frequentry.  
+4. After passing date throuth the "findDay" function as a paramiter, you will get the weekday frequently.  
