@@ -2,7 +2,7 @@ import sys
 import datetime 
 import calendar 
 
-class DateConvert:
+class Convert:
 
     def find_day(self, date): 
         born = datetime.datetime.strptime(date, '%d-%m-%Y').weekday() 
